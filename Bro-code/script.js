@@ -24,6 +24,7 @@
 
 let count = 0;
  document.querySelector('#decreaseBtn').onclick= ()=>{
+    if(count<=0){document.getElementById(`countLabel `).innerHTML=Display(0)}
      count-=1
      document.getElementById('countLabel').innerHTML= count
  }

@@ -1,5 +1,5 @@
 #countLabel{
-    font-size: 50px;
+    font-size: 75px;
 }
 body{
     display: flex;
@@ -17,9 +17,10 @@ body{
     color: white;
 }
 button{
-    padding: 10px 25px;
-    margin-top: 9em;
+    padding: 10px 20px;
     border: none;
     border-radius: 8px;
     background-color: inherit;
+    color: white;
+    font-weight: bolder;
 }
