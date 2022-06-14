@@ -1,0 +1,27 @@
+.form{
+    background-color: #465;
+    width: 30rem;
+    height: 30rem;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+}
+form{
+    align-items: center;
+    justify-content: center;
+}
+button{
+    cursor: pointer;
+    background-color: #465;
+    border: none;
+    box-shadow: -1px -1px 3px white;
+}
+input{
+    background-color: #465;
+    border: none;
+    box-shadow: -1px 0px 3px 1px white;
+}
+::placeholder{
+    color: black;
+    opacity: 0.5;
+}
