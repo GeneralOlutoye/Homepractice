@@ -21,6 +21,6 @@ clicked=()=>{
     guesses++;
 
     guess==answer ? alert(`${answer} is the Num. It took you ${guesses} guesses`) 
-    : guess<answer? alert(`Too small!`) : alert('Too large')
+    : guess<answer? alert(`Too small!`) : alert('Too large') 
 }
 document.querySelector('#submitButton').addEventListener('click', clicked)
