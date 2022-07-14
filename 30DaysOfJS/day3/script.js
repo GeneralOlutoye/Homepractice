@@ -25,7 +25,6 @@ decreament=()=>{
         count-=1
         counter.innerText = count
         counter.style.color= 'black'
-
     }
 }
 
