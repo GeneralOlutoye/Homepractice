@@ -37,5 +37,5 @@ reset=()=>{
     count=0
     counter.style.color= 'black'
     counter.innerText= count
-    display.textContent= 'SAVED: '
+    display.textContent= ' '
 }
