@@ -1,9 +1,11 @@
 let textArea = document.getElementById('textArea')
-let submit = document.getElementById('yes')
 let display = document.getElementById('show')
-let show = document.getElementsByClassName('you')
 
 submit.onclick = ()=>{
-    display.textContent = `You entered ${textArea.value}`
-    // alert('done')
+    if(textArea.value ==''){
+        display.textContent = textArea.value
+    }
+    else{
+        display.textContent = `You entered ${textArea.value}`
+    }
 }
